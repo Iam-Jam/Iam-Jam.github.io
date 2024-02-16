@@ -11,25 +11,27 @@
 <body>
     <nav>
         <nav class="logo">
-            <img src=""/>
+            <!-- <img src=""/> -->
     </nav>
         <header>
-            <p><a href="Home.html">Home</a></p>
-            <p><a href="About.html">About</a></p>
-            <p><a href="Services.html">Services</a></p>
-            <p><a href="Portfolio.html">Portfolio</a></p>
-            <p><a href="Contact.html">Contact</a></p>
+            <p><a href="#Home" class="hover-nav">Home</a></p>
+            <p><a href="#About" class="hover-nav">About</a></p>
+            <p><a href="#Services" class="hover-nav">Services</a></p>
+            <p><a href="#Portfolio" class="hover-nav">Portfolio</a></p>
+            <p><a href="#Contact" class="hover-nav">Contact</a></p>
         </header>
     </nav>
 
 <!--Next Section-->
 
     <main>
-        <div class="hero-content">
-            <h1>Jammie Akut Torayno</h1>
-            <p>Full Stack Developer | Graphic Designer | Content Creator</p>
-            <a href="https://calendly.com/jtorayno2022/30min" target="_blank" class="button">Book a Call</a>
-            <a href="assets/CV.pdf.pdf" target="_blank" class="button">Download CV</a>
+        <div id="Home">
+            <div class="hero-content">
+                <h1>Jammie Akut Torayno</h1>
+                <p>Full Stack Developer | Graphic Designer | Content Creator</p>
+                <a href="https://calendly.com/jtorayno2022/30min" target="_blank" class="button">Book a Call</a>
+                <a href="assets/CV.pdf.pdf" target="_blank" class="button">Download CV</a>
+            </div>
         </div>
         <div class="hero-image">
             <img src="assets/images/pic3.jpg" alt="Jammie">
@@ -64,34 +66,24 @@
 
     <section id="Services">
         <h2>Services</h2>
-        <div id="services-images">
-            <div class="services-pic">
+        <div class="services-blocks">
+            <div class="services-list">
                 <img src="assets/images/pic3.jpg" alt="Jammie">
-            </div>
-            <div class="services-pic">
-                <img src="assets/images/pic3.jpg" alt="Jammie">
-            </div>
-            <div class="services-pic">
-                <img src="assets/images/pic3.jpg" alt="Jammie">
-            </div>
-            <div class="services-pic">
-                <img src="assets/images/pic3.jpg" alt="Jammie">
-            </div>
-        </div>    
-        <div class="services-list">
-            <div class="services-list-1">
                 <h3>Web Development</h3>
                 <p>I craft bespoke websites tailored to your unique needs. From clean and modern designs to seamless functionality, I ensure that your online presence stands out in the digital landscape.</p>
             </div>
-            <div class="services-list-2">
+            <div class="services-list">
+                <img src="assets/images/pic3.jpg" alt="Jammie">
                 <h3>Graphic Design</h3>
                 <p>I specialize in creating captivating visuals that leave a lasting impression. From stunning graphics, social media posts, to branding elements, that reflect your brand's identity and resonate with your target audience.</p>
             </div>
-            <div class="services-list-3">
+            <div class="services-list">
+                <img src="assets/images/pic3.jpg" alt="Jammie">
                 <h3>Content Creation</h3>
                 <p>Engage your audience and tell your story with compelling content that captivates hearts and minds. Let’s collaborate to create content that sparks conversations, drives engagement, and builds meaningful connections with your audience.</p>  
             </div>
-            <div class="services-list-3">
+            <div class="services-list">
+                <img src="assets/images/pic3.jpg" alt="Jammie">
                 <h3>UI/UX Design</h3>
                 <p>I specialize in crafting interfaces that prioritize user satisfaction and engagement. From intuitive navigation to visually appealing layouts, I'll ensure that every aspect of your website is designed with the end user in mind.</p>
             </div>
@@ -140,32 +132,37 @@
 
     <section id="Contact">
         <h2>Contact Me</h2>
-        <div class="Contact-List">
-            <h3>Reach me through Social Media</h3>
-        </div>
-        <div id="email">
-            <div class="email-info">
-                <p>Send Me an Email</p>
-                <p>Name</p>
-                <input type="name" name="Name" placeholder="Name">
-                <p>Email</p>
-                <input type="email" name="Email" placeholder="Email">
-                <p>Message</p>
-                <input type="message" name="Message" placeholder="Message">
-            </div>
-
-        </div>
-        
-        
+        <h3>Reach me through Social Media</h3>
+        <div class="Contact-List"></div>
         <div id="Social-Media-Icons">
-            <img src="assets/images/fb.svg" alt="Jammie">
-            <img src="assets/images/ig1.svg" alt="Jammie">
-            <img src="assets/images/li.svg" alt="Jammie">
+            <a href="https://www.facebook.com/jammieakut22/" target="_blank"> 
+                <img src="assets/images/fb.svg" alt="Jammie">
+            </a>
+            <a href="https://www.instagram.com/jammie_akut/" target="_blank">
+                <img src="assets/images/ig1.svg" alt="Jammie">
+            </a>
+            <a href="https://www.linkedin.com/in/jammietorayno/" target="_blank">
+                <img src="assets/images/li.svg" alt="Jammie">
+            </a>
         </div>
+
+            <div id="email">
+                <div class="email-info">
+                    <h4>Send Me an Email</h4>
+                    <p>Name</p>
+                    <input type="Name" name="Name" placeholder="Name">
+                    <p>Email</p>
+                    <input type="Email" name="Email" placeholder="Email">
+                    <p>Message</p>
+                    <textarea>Message</textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </div>  
         
     </section>
 
 <!--Next Section-->
+
     <footer>
         <p>Thank you for coming! I hope to hear from you soon!</p>
     </footer>
