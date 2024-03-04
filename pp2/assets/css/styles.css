@@ -11,61 +11,40 @@ body, html {
 
 .navbar-brand img {
     height: 60px;
-    padding: 0px 0px 0px 30px;
+    padding: 10px 10px 10px 25px;
 }
 
-#navbarNav {
+.Nav .navbar-nav {
     display: flex;
-    margin: 0 65%;
-    justify-content: space-evenly;
-    align-items: right;
-    /* text-decoration: none; */
+    margin: 0 200%;
+    padding: 10px 10px 10px 10px;
+    justify-items: space-between;
+    align-items: center;
 }
 
-.navbar-nav .nav-link {
+.navbar-nav .nav-link{
+    /* display: flex; */
+    /* margin: 0% 0% 0% 60%; */
+    padding: 10px 20px 0px 0px;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px 20px 20px 20px; */
+    
+}
+
+.navbar-nav p a {
     color: #BD8F13;
     font-size: 20px;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.navbar-nav .nav-link:hover {
-    color: #a9ccf9;
-}
-
-@media screen and (max-width: 600px) {
-    .navbar-collapse {
-        display: flex;
-        justify-content: space-evenly;
-        justify-content: left;
-    }
-
-    .navbar-nav {
-        margin-top: 10px;
-    }
-}
-
-/* Header {
-    display: flex;
-    padding: 0px 0px 0px 0px;
-    margin: 0 65% ;
-    justify-content: space-between;
-    align-items:center;
-}
-
-header p a{
-    color: #BD8F13;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 5px;
-} */
-
 .hover-nav {
     color:#bd8f13;
     transition: color 0.3 s ease;
 }
 
-.hover-nav:hover {
+.navbar-nav .nav-link:hover {
     color: #a9ccf9;
 }
 
@@ -90,19 +69,9 @@ main h1 {
     color: whitesmoke;
 }
 
-/* @media (max-width: 400px) {
-    .main h1 {
-        font-size: 3.5vw;
-    }
-
-    .navbar-nav {
-        margin-top: 10px;
-    }
-} */
-
 main p {
     /* font-size: 20px; */
-    font-size: 1.3vw;
+    font-size: 1.35vw;
     margin-bottom: 60px;
     color: whitesmoke;
 }
@@ -115,6 +84,33 @@ main p {
     text-decoration: none;
     margin-right: 20px;
     border-radius: 5px;
+}
+
+.hero-image img {
+    width: 200px;
+}
+
+/* .hero-image img {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* main .hero-image img {
+    width: 230px;
+    overflow:hidden;
+} */
+
+@media screen and (max-width: 600px) {
+    .hero-image img {
+        /* flex-direction: column; */
+        transform: translate(-50%, -50%);
+        /* width: 100px; */
+        /* height: auto; */
+    }
 }
 
 /* Next Section */
