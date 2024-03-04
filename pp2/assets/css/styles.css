@@ -111,6 +111,11 @@ main p {
         /* width: 100px; */
         /* height: auto; */
     }
+
+    main {
+        /* color: rgb(100, 20, 20); */
+        flex-direction: column;
+    }
 }
 
 /* Next Section */
