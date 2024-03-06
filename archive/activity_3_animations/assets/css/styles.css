@@ -1,0 +1,110 @@
+body, html {
+    margin: 0px;
+    height: 0px;
+    
+}
+
+header {
+    background-color: rgb(185, 228, 245);
+    color: rgb(12, 39, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin: 0;
+    padding: 15%;;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(223, 149, 223); */
+    /* height: 100%;
+    width: 100%;
+    height: 100%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+
+#section-rotate {
+    /* background-color: rgb(223, 149, 223); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    from {
+            transform: rotate(0deg);
+        }
+    
+        to {
+            transform: rotate(360deg);
+        }
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* background-color: cadetblue; */
+
+}
+
+#circle1 {
+    background-color: #7F7EFF;
+}
+
+#circle2 {
+    background-color: #A390E4;
+}
+
+#circle3 {
+    background-color: #C69DD2;
+}
+
+#circle4 {
+    background-color: #CC8B8C;
+}
+
+
+    /* background-color: rgb(245, 219, 245); */
+    /* width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+/* div {
+    height: 50px;
+    width: 50px;
+    
+    border-radius: 50%;
+    border-color: violet;
+
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

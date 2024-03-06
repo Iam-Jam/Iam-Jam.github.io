@@ -1,0 +1,132 @@
+section [class^="container"] {
+    padding: 4rem 2rem;
+    }
+    
+@media screen and (min-width: 1024px) { 
+    section [class^="container"] {
+            padding: 4rem;
+        }
+    
+        nav [class^="container"] {
+            padding: 0 4rem;
+        }
+    }
+
+
+.navbar {
+    background-color: #031D44;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.container-lg a {
+    color: #bd8f13;
+}
+
+.navbar-nav {
+    color:#bd8f13;
+    font-size: 1.1rem;
+}
+
+.d-lg-block {
+    background-color: #bd8f13;
+}
+
+@media screen and (min-width:1024px) {
+    .navbar-nav .nav-item {
+        padding: 0 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
+
+/* HERO SECTION */
+.hero {
+ background-image: url("../images/home-bg-2.png");
+ background-repeat: none;
+ margin-top: 63px;
+ padding-top: 130px;
+ padding-bottom: 130px;
+}
+
+.col-sm-6 {
+    color: whitesmoke;
+}
+
+.col-sm-6 h1 {
+    font-size: 3.3rem;
+    color: whitesmoke;
+}
+
+.col-sm-6 a {
+    color: whitesmoke;
+}
+
+@media screen and (max-width:576px) {
+    .hero {
+        width: 100%;
+        /* display: flex; */
+        text-align: center;
+    }
+
+    .hero img {
+        width:125px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    /* .hero {
+        padding-left: 50px;
+    } */
+
+    .col-sm-6 h1 {
+        font-size: 32px;
+    }
+
+    .col-sm-6 p {
+        font-size: 13px;
+    }
+}
+
+/* SERVICES SECTION */
+
+section:not(:first-of-type) {
+    text-align: center;
+}
+
+section.services i {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.img-services {
+    width: 120px;
+}
+
+section .card {
+    border: 2px solid #000000;
+    box-shadow: 4px 4px #000000;
+    transition: all 0.4s;
+    max-width: 24rem;
+    margin-inline: auto;
+}
+
+.card-title {
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width:576px) {
+    section .card {
+        max-width: 16rem;
+    }    
+}
+
+/* SERVICES SECTION */
