@@ -521,18 +521,13 @@ section.projects .card img {
 
 .email-info {
     margin-top: 20px;
-    padding: 10px 0px 0px 25px;
-    /* display:flex; */
-    /* padding: 10px 10px 10px 20px; */
+    padding: 10px 10px 10px 20px;
     
 }
 
 .email-info h4 {
     color: #BD8F13;
     font-size: 22px;
-    /* display: flex; */
-    /* justify-content: left;
-    align-items: left; */
 }
 
 .email-info p {
