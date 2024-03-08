@@ -40,7 +40,6 @@ section:not(:first-of-type) {
 .navbar-nav {
     color: #bd8f13;
     font-size: 1.1rem;
-
 }
 
 .navbar-toggler-icon-bg {
@@ -59,7 +58,6 @@ section:not(:first-of-type) {
     .btn-warning {
         background-color: #bd8f13 !important;
         color:#021d3f !important;
-        /* font-weight: bold !important; */
     }
 
     .navbar-brand {
@@ -500,10 +498,16 @@ section.projects .card img {
     justify-content: space-evenly;
     margin-bottom: 50px;
     padding-top: 20px;
+    
 }
 
 .contact-icon {
     height: 52px;
+    transition: box-shadow 0.3s ease;
+}
+
+.contact-icon:hover {
+    box-shadow: 0 0 20px #BD8F13;
 }
 
 #email {
@@ -517,12 +521,18 @@ section.projects .card img {
 
 .email-info {
     margin-top: 20px;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 0px 0px 25px;
+    /* display:flex; */
+    /* padding: 10px 10px 10px 20px; */
+    
 }
 
 .email-info h4 {
     color: #BD8F13;
     font-size: 22px;
+    /* display: flex; */
+    /* justify-content: left;
+    align-items: left; */
 }
 
 .email-info p {
@@ -700,4 +710,91 @@ footer {
         font-size: 20px;
         width: 50%;
     }
+}
+
+/* LEARN MORE PART 1 */
+
+.learn-more {
+    padding-top: 80px;
+    background-color: #a9ccf9;
+    padding-bottom: 50px;
+}
+
+.learn-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 48px;
+}
+
+.learn-h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+@media screen and (max-width:500px) {
+    .learn-h3 {
+        display: flex;
+            justify-content: center;
+            align-items: center;
+        font-size: 18px;
+    }
+
+    .card {
+        flex: 0 0 calc(25% - 20px);
+        max-width: calc(25% - 20px);
+        margin: 10px;
+    }
+}
+
+#demo {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.learn-img {
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    padding: 60px;
+    /* height: 100px; */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #021d3f !important;
+}
+
+.carousel-indicators button {
+    background-color: #021d3f !important;
+}
+
+.carousel-caption {
+    color:#021d3f !important;
+}
+
+/* LEARN MORE PART 2 - Overview */
+
+.overview {
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.overview-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* LEARN MORE PART 4 - Testimonials */
+.testimonials {
+    padding-bottom: 50px;
+    padding-left: 30px;
+    margin-bottom:50px;
+    margin-top: 20px;
 }
