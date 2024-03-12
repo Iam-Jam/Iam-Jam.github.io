@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>March 11 Loop Activity</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="act-loop.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">March 11 Loop Activity</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <section class="row">
+            <div class="col-md-4 col-sm-6">
+            </div>
+
+            <div class="col-md-4 col-sm-6 bg-light bg-gradient mt-4">
+                <div class="mt-4 mb-3">
+                    <label for="rownumber" class="form-label">Row Number</label>
+                    <input type="number" class="form-control form-control-sm" id="rownum" placeholder="Row Number">
+                </div>
+
+                <div class="mt-4 mb-3">
+                    <label for="colnumber" class="form-label">Column Number</label>
+                    <input type="number" class="form-control form-control-sm" id="colnum" placeholder="Column Number">
+                </div>
+
+                <div class="col-auto">
+                    <button id="btnExecute" class="btn btn-sm btn-primary mb-3">Multiply</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="row mt-3 mb-3">
+            <div class="col-md-2"></div>
+
+            <div class="p-2 text-white col-md-8 col-sm-12 bg-light bg-gradient">
+                <div class="row" id="div-wrapper">
+                    <div class="table-responsive">
+                        <table class="table" id="result-table">
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="act-loop.js"></script>
+</body>
+</html>
