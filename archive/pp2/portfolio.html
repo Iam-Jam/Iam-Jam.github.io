@@ -4,66 +4,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jammie Akut Torayno</title>
+    <title>Jammie Services-Boot</title>
 
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/pp2-mobile-boot.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
 
 <body>
-    <nav>
-        <div class="logo">
-            <img src="assets/images/logo.png" alt="Jammie">
+
+    <!-- NAVIGATION SECTION    -->
+
+    <!-- removed - shadow-sm - in class -->
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <div class="container-lg">
+            <a class="navbar-brand fw-bold" href="index.html">Jammie's Space</a>
+
+            <!-- Navigation Menu  -->
+            <button class="navbar-toggler navbar-toggler-icon-bg navbar-toggler-border-color" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Bar Content  -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <!-- removed - active - in class -->
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-lg-none" href="https://calendly.com/jtorayno2022/30min"
+                            target="_blank">Book a Call</a>
+                    </li>
+                </ul>
+                <a class="btn btn-outline-dark d-none d-lg-block btn-warning"
+                    href="https://calendly.com/jtorayno2022/30min" target="_blank">Book a Call</a>
+            </div>
         </div>
-        <header>
-            <p><a href="index.html" class="hover-nav">Home</a></p>
-            <p><a href="about.html" class="hover-nav" target="_self">About</a></p>
-            <p><a href="services.html" class="hover-nav" target="_self">Services</a></p>
-            <p><a href="portfolio.html" class="hover-nav" target="_self">Portfolio</a></p>
-            <p><a href="contact.html" class="hover-nav" target="_self">Contact</a></p>
-        </header>
     </nav>
 
-    <!--Next Section-->
 
-    <section id="Portfolio">
-        <h2>Portfolio</h2>
-        <div id="Portfolio-images">
-            <div class="Portfolio-pic">
-                <img src="assets/images/Port-1-pic.png" alt="Jammie">
+    <!-- PORTFOLIO SECTION -->
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="display-5 fw-bold mb-4">Portfolio</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <div class="card">
+                        <img src="assets/images/Port-1-pic.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Graphic Design</h5>
+                            <p class="card-text">Do you like what you see?</p>
+                            <a href="learn-more.html" class="btn btn-outline-dark">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <div class="card">
+                        <img src="assets/images/Port-2-pic.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Web Design</h5>
+                            <p class="card-text">Do you like what you see?</p>
+                            <a href="learn-more.html" class="btn btn-outline-dark">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <div class="card">
+                        <img src="assets/images/Port-3-pic.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Content Creation</h5>
+                            <p class="card-text">Do you like what you see?</p>
+                            <a href="learn-more.html" class="btn btn-outline-dark">Learn More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="Portfolio-pic">
-                <img src="assets/images/Port-2-pic.png" alt="Jammie">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <div class="card">
+                        <img src="assets/images/Port-4-pic.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Web Development</h5>
+                            <p class="card-text">Do you like what you see?</p>
+                            <a href="learn-more.html" class="btn btn-outline-dark">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <div class="card">
+                        <img src="assets/images/Port-5-pic.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">UI/UX Design</h5>
+                            <p class="card-text">Do you like what you see?</p>
+                            <a href="learn-more.html" class="btn btn-outline-dark">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <div class="card">
+                        <img src="assets/images/Port-6-pic.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Web Development</h5>
+                            <p class="card-text">Do you like what you see?</p>
+                            <a href="learn-more.html" class="btn btn-outline-dark">Learn More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="Portfolio-pic">
-                <img src="assets/images/Port-3-pic.png" alt="Jammie">
-            </div>
-        </div>
-        <div class="Portfolio-List-1">
-            <h3>Graphic Design</h3>
-            <!-- <p>For a Real Estate Agent</p> -->
-            <h3>Graphic Design</h3>
-            <h3>Content Creation</h3>
-        </div>
-        <div id="Portfolio-images2">
-            <div class="Portfolio-pic">
-                <img src="assets/images/Port-4-pic.png" alt="Jammie">
-            </div>
-            <div class="Portfolio-pic">
-                <img src="assets/images/Port-5-pic.png" alt="Jammie">
-            </div>
-            <div class="Portfolio-pic">
-                <img src="assets/images/Port-6-pic.jpg" alt="Jammie">
-            </div>
-        </div>
-        <div class="Portfolio-List-2">
-            <h3>Web Development</h3>
-            <h3>UI/UX Design</h3>
-            <h3>Web Development</h3>
         </div>
     </section>
 
-    <!--Next Section-->
+    <!-- FOOTER SECTION -->
 
     <footer>
         <div class="footer-name">
@@ -71,11 +140,16 @@
         </div>
 
         <div class="footer-nav">
-            <p><a href="index.html" class="hover-nav">Home</a></p>
-            <p><a href="about.html" class="hover-nav" target="_self">About</a></p>
-            <p><a href="services.html" class="hover-nav" target="_self">Services</a></p>
-            <p><a href="portfolio.html" class="hover-nav" target="_self">Portfolio</a></p>
-            <p><a href="contact.html" class="hover-nav" target="_self">Contact</a></p>
+            <p><a href="index.html" class="footer-nav">Home</a></p>
+            <p><a href="about.html" class="footer-nav" target="_self">About</a></p>
+            <p><a href="services.html" class="footer-nav" target="_self">Services</a></p>
+            <p><a href="portfolio.html" class="footer-nav" target="_self">Portfolio</a></p>
+            <p><a href="contact.html" class="footer-nav" target="_self">Contact</a></p>
         </div>
     </footer>
 </body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>

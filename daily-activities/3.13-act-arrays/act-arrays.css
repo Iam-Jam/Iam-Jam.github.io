@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row {
+    margin-right: 50px;
+}
+
+.container1 {
+    border-radius: 5%;
+}
+

@@ -1,0 +1,22 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0F273F;
+    color: #FFFFFF;
+}
+
+header,
+footer {
+    background-color: #bd8f13;
+}
+
+/* Custom styles */
+.listing {
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
