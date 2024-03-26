@@ -5,7 +5,7 @@ num1 = parseFloat(num1);
 num2 = parseFloat(num2);
 
 function printEvenNumbers(start, end) {
-    if (start > end) {20
+    if (start > end) {
         return;
     }
 
