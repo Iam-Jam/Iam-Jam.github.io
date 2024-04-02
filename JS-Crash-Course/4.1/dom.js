@@ -1,5 +1,5 @@
 document.getElementById("btn-primary").addEventListener("click", function() {
-    document.getElementById("div-body").style.backgroundColor = "#0275d8";
+    document.getElementById("div-body").style.backgroundColor = "bg-primary";
 });
 
 document.getElementById("btn-info").addEventListener("click", function() {
@@ -32,3 +32,7 @@ document.getElementById("btn-dark").addEventListener("click", function() {
 
 
     
+
+// document.getElementById("btn-primary").addEventListener("click", function() {
+//     document.getElementById("div-body").style.backgroundColor = "#0275d8";
+// });
