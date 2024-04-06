@@ -1,0 +1,35 @@
+.logo img {
+    width: 40px;
+    margin-left: 20px;
+    /* padding: 10px 10px 10px 10px; */
+}
+
+.container {
+    padding-top: 100px;
+}
+
+.search-btn {
+    display: flex;
+    /* align-items: space-around; */
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.hero-scn {
+    margin-top: 56px;
+}
+
+.hero-img {
+    margin-right: -20px;
+    padding-right: -220px;
+    align-items: end;
+}
+.search {
+    display: flex;
+}
+
+/* .row {
+    display: flex;
+} */
+
+/*   */
