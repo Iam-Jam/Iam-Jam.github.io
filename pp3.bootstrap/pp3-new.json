@@ -1,6 +1,7 @@
 [
     {
-        "TransactionType": "Buy",
+        "PropertyNumber": "PN-00001",
+		"TransactionType": "Buy",
 		"PropertyClassification": "Residential",
 		"PropertyType": "Lot Only",
 		"Price": "12,000,000.00 Php",
@@ -14,7 +15,8 @@
 		"TitleStatus": "Clean"     
     },
     {
-        "TransactionType": "Buy",
+        "PropertyNumber": "PN-00002",
+		"TransactionType": "Buy",
 		"PropertyClassification": "Residential",
 		"PropertyType": "House and Lot",
 		"Price": "9,000,000.00 Php",
@@ -28,7 +30,8 @@
 		"TitleStatus": "Mortgaged"     
     },
     {
-        "TransactionType": "Rent",
+        "PropertyNumber": "PN-00003",
+		"TransactionType": "Rent",
 		"PropertyClassification": "Commercial",
 		"PropertyType": "Lot Only",
 		"Price": "150,000 Php/ month",
@@ -42,7 +45,8 @@
 		"TitleStatus": "Clean"     
     },
     {
-        "TransactionType": "Buy",
+        "PropertyNumber": "PN-00004",
+		"TransactionType": "Buy",
 		"PropertyClassification": "Residential",
 		"PropertyType": "Lot Only",
 		"Price": "12,000,000.00 Php",
@@ -56,7 +60,8 @@
 		"TitleStatus": "Clean"     
     },
     {
-        "TransactionType": "Buy",
+        "PropertyNumber": "PN-00005",
+		"TransactionType": "Buy",
 		"PropertyClassification": "Residential",
 		"PropertyType": "House and Lot",
 		"Price": "9,000,000.00 Php",
@@ -70,7 +75,8 @@
 		"TitleStatus": "Mortgaged"     
     },
     {
-        "TransactionType": "Rent",
+        "PropertyNumber": "PN-00006",
+		"TransactionType": "Rent",
 		"PropertyClassification": "Commercial",
 		"PropertyType": "Lot Only",
 		"Price": "150,000 Php/ month",
@@ -83,8 +89,9 @@
 		"PropertyImage": "assets/property-1.jpg",
 		"TitleStatus": "Clean"     
     },
-        {
-        "TransactionType": "Buy",
+    {
+        "PropertyNumber": "PN-00007",
+		"TransactionType": "Buy",
 		"PropertyClassification": "Residential",
 		"PropertyType": "Lot Only",
 		"Price": "12,000,000.00 Php",
@@ -98,7 +105,8 @@
 		"TitleStatus": "Clean"     
     },
     {
-        "TransactionType": "Buy",
+        "PropertyNumber": "PN-00008",
+		"TransactionType": "Buy",
 		"PropertyClassification": "Residential",
 		"PropertyType": "House and Lot",
 		"Price": "9,000,000.00 Php",
@@ -112,7 +120,8 @@
 		"TitleStatus": "Mortgaged"     
     },
     {
-        "TransactionType": "Rent",
+        "PropertyNumber": "PN-00009",
+		"TransactionType": "Rent",
 		"PropertyClassification": "Commercial",
 		"PropertyType": "Lot Only",
 		"Price": "150,000 Php/ month",
@@ -125,8 +134,9 @@
 		"PropertyImage": "assets/property-1.jpg",
 		"TitleStatus": "Clean"     
     },
-        {
-        "TransactionType": "Buy",
+    {
+        "PropertyNumber": "PN-00010",
+		"TransactionType": "Buy",
 		"PropertyClassification": "Residential",
 		"PropertyType": "Lot Only",
 		"Price": "12,000,000.00 Php",
@@ -140,7 +150,8 @@
 		"TitleStatus": "Clean"     
     },
     {
-        "TransactionType": "Buy",
+        "PropertyNumber": "PN-00011",
+		"TransactionType": "Buy",
 		"PropertyClassification": "Residential",
 		"PropertyType": "House and Lot",
 		"Price": "9,000,000.00 Php",
@@ -154,7 +165,8 @@
 		"TitleStatus": "Mortgaged"     
     },
     {
-        "TransactionType": "Rent",
+        "PropertyNumber": "PN-00012",
+		"TransactionType": "Rent",
 		"PropertyClassification": "Commercial",
 		"PropertyType": "Lot Only",
 		"Price": "150,000 Php/ month",

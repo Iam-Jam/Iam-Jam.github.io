@@ -54,85 +54,111 @@
                 </ul>
                 <a class="btn btn-outline-dark d-none d-lg-block btn-warning"
                     href="https://calendly.com/jtorayno2022/30min" target="_blank">Book a Viewing</a>
+                <!-- Favorites Button -->
+                <button type="button" id="btn-show-favorites" class="btn position-relative fave-btn" data-bs-toggle="modal"
+                    data-bs-target="#modal-favorites">
+                    <i class="fa fa-regular fa-heart fa-xl" style="color: secondary"></i>
+                    <span id="spn-badge" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">0
+                    </span>
+                </button>
             </div>
         </div>
     </nav>
 
-<!-- PROPERTIES SECTION -->
-<div class="card mb-3 prop-card-1">
-    <div class="row g-0">
-        <div class="col-lg-5">
-            <div class="card-body">
-                <div class="container properties-scn">
-                    <h2 class="display-5 fw-bold">Property Search</h2>
-                    <p class="text-left">Here are the properties you are looking For.</p>
-                </div>
-                <div class="prop-search">
-                    <div class="row search-btns">
-                        <div class="container position-relative search-btn">
-                            <button class="btn btn-color buy-btn">BUY</button>
-                            <button class="btn btn-color rent-btn">RENT</button>
-                            <button class="btn btn-color sell-btn">SELL</button>
+    <!-- PROPERTIES SECTION -->
+    <div class="card mb-3 prop-card-2">
+        <div class="row g-0">
+            <div class="col-lg-5">
+                <div class="card-body">
+                    <div class="container properties-scn-2">
+                        <h2 class="display-5 fw-bold">Welcome!</h2>
+                        <p class="text-left" style="font-size: 28px;">I'm sure we have what it is you are looking for, If not, We'd be more than happy to search for properties that suite your needs.</p>
+                    </div>
+                    <!-- Property Search Option -->
+                    <!-- <div class="prop-search">
+                        <div class="row search-btns">
+                            <div class="container position-relative search-btn">
+                                <button class="btn btn-color buy-btn">BUY</button>
+                                <button class="btn btn-color rent-btn">RENT</button>
+                                <button class="btn btn-color sell-btn">SELL</button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="input-group mb-5 search-bar">
-                        <input type="text" class="form-control" id="prop-search-input"
-                            placeholder="Looking for a house, lot or condo unit?" aria-label="Looking for"
-                            aria-describedby="button-addon2">
-                        <button class="btn" type="button" id="prop-search-button">Search</button>
-                    </div>
+                        <div class="input-group mb-5 search-bar">
+                            <input type="text" class="form-control" id="prop-search-input"
+                                placeholder="Looking for a house, lot or condo unit?" aria-label="Looking for"
+                                aria-describedby="button-addon2">
+                            <button class="btn" type="button" id="prop-search-button">Search</button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <img src="assets/hero 1.jpg" class="img-fluid" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <section class="container mt-5" id="Properties-Section">
+        <!-- <div class="container properties-scn">
+            <h2 class="display-5 fw-bold">Property Search</h2>
+            <p class="text-left">Here are the properties you are looking For.</p>
+        </div> -->
+        <!-- Prop Search Bar -->
+        <!-- <div class="col-lg-6 prop-search">
+            <div class="row search-btns">
+                <div class="container position-relative search-btn">
+                    <button class="btn btn-color buy-btn">BUY</button>
+                    <button class="btn btn-color rent-btn">RENT</button>
+                    <button class="btn btn-color sell-btn">SELL</button>
+                </div>
+            </div>
+            <div class="input-group mb-5 search-bar">
+                <input type="text" class="form-control" id="prop-search-input" placeholder="Looking for a house, lot or condo unit?"
+                    aria-label="Looking for" aria-describedby="button-addon2">
+                <button class="btn" type="button" id="prop-search-button">Search</button>
+            </div>
+        </div>
+        <div>
+            <div class="row" id="filtered-properties">
+            </div>
+        </div> -->
+        
+        <!-- prop divider between search Results and All Props -->
+        <!-- <div class="container prop-divider">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <img src="assets/Properties divider.png" alt="Your Image" class="img-fluid">
+                </div>
+            </div>
+        </div> -->
+
+        <div class="container col-lg-7 properties-scn">
+            <h2 class="display-5 text-center fw-bold">Our Properties</h2>
+            <p class="text-center">Feel Free to Check our numerous listings.</p>
+        </div>
+        <div>
+            <div class="row" id="sect-properties">
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Favorites -->
+    <div class="modal fade" id="modal-favorites">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content ">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">My Favorite Properties</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row" id="modal-body-favorites"></div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-7">
-            <img src="assets/hero 1.jpg" class="img-fluid" alt="...">
-        </div>
     </div>
-</div>
-
-<section class="container mt-5" id="Properties-Section">
-    <!-- <div class="container properties-scn">
-        <h2 class="display-5 fw-bold">Property Search</h2>
-        <p class="text-left">Here are the properties you are looking For.</p>
-    </div> -->
-    <!-- Prop Search Bar -->
-    <!-- <div class="col-lg-6 prop-search">
-        <div class="row search-btns">
-            <div class="container position-relative search-btn">
-                <button class="btn btn-color buy-btn">BUY</button>
-                <button class="btn btn-color rent-btn">RENT</button>
-                <button class="btn btn-color sell-btn">SELL</button>
-            </div>
-        </div>
-        <div class="input-group mb-5 search-bar">
-            <input type="text" class="form-control" id="prop-search-input" placeholder="Looking for a house, lot or condo unit?"
-                aria-label="Looking for" aria-describedby="button-addon2">
-            <button class="btn" type="button" id="prop-search-button">Search</button>
-        </div>
-    </div> -->
-    <div>
-        <div class="row" id="filtered-properties">
-        </div>
-    </div>
-    <!-- prop divider between search Results and All Props -->
-    <div class="container prop-divider">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center">
-                <img src="assets/Properties divider.png" alt="Your Image" class="img-fluid">
-            </div>
-        </div>
-    </div>
-
-    <div class="container col-lg-7 properties-scn">
-        <h2 class="display-5 text-center fw-bold">Our Properties</h2>
-        <p class="text-center">Feel Free to Check our numerous listings.</p>
-    </div>
-    <div>
-        <div class="row" id="sect-properties">
-        </div>
-    </div>
-</section>
-
+    
     <!-- FOOTER SECTION -->
     <footer class="footer-scn" id="Footer-Section">
         <div class="container-fluid text-white-50 footer pt-5 mt-5">
@@ -144,47 +170,65 @@
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+639178504514</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>jammietorayno@gmail.com</p>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social" target="_blank"
+                                href="https://twitter.com/Jam_miE"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" target="_blank"
+                                href="https://www.facebook.com/jammieakut22/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" target="_blank"
+                                href="https://www.youtube.com/channel/UCozCfuxJk0nnhGCcT07_sgA"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" target="_blank"
+                                href="https://www.linkedin.com/in/jammietorayno/"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Quick Links</h5>
-                        <a class="btn btn-link text-white-50" href="">About Us</a>
-                        <a class="btn btn-link text-white-50" href="">Our Services</a>
-                        <a class="btn btn-link text-white-50" href="">Our Properties</a>
-                        <a class="btn btn-link text-white-50" href="">Contact Us</a>
+                        <a class="btn btn-link text-white-50" href="about.html
+                            ">About Us</a>
+                        <a class="btn btn-link text-white-50" href="services.html">Our Services</a>
+                        <a class="btn btn-link text-white-50" href="properties.html">Our Properties</a>
+                        <a class="btn btn-link text-white-50" href="contact.html">Contact Us</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Photo Gallery</h5>
                         <div class="row g-2 pt-2">
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="assets/property-1.jpg" alt="">
+                                <a href="properties.html">
+                                    <img class="img-fluid rounded bg-light p-1" src="assets/property-1.jpg" alt="">
+                                </a>
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="assets/property-2.jpg" alt="">
+                                <a href="properties.html">
+                                    <img class="img-fluid rounded bg-light p-1" src="assets/property-2.jpg" alt="">
+                                </a>
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="assets/property-3.jpg" alt="">
+                                <a href="properties.html">
+                                    <img class="img-fluid rounded bg-light p-1" src="assets/property-3.jpg" alt="">
+                                </a>
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="assets/property-4.jpg" alt="">
+                                <a href="properties.html">
+                                    <img class="img-fluid rounded bg-light p-1" src="assets/property-4.jpg" alt="">
+                                </a>
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="assets/property-5.jpg" alt="">
+                                <a href="properties.html">
+                                    <img class="img-fluid rounded bg-light p-1" src="assets/property-5.jpg" alt="">
+                                </a>
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="assets/property-6.jpg" alt="">
+                                <a href="properties.html">
+                                    <img class="img-fluid rounded bg-light p-1" src="assets/property-6.jpg" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Newsletter</h5>
                         <p>Stay in the loop with exclusive updates and offers. Sign up for our newsletter today!</p>
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                        <div class="position-relative mx-auto text-white" style="max-width: 400px;">
+                            <input class="form-control w-100 py-3 ps-4 pe-5 sign-up-text" type="text"
                                 placeholder="Your email">
                             <button type="button" class="btn position-absolute top-0 end-0 mt-2 me-2">Sign Up</button>
                         </div>
@@ -199,10 +243,10 @@
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
-                                <a href="">Home</a>
-                                <a href="">Privacy</a>
-                                <a href="">Help</a>
-                                <a href="">FAQs</a>
+                                <a href="pp3-new.html">Home</a>
+                                <a href="contact.html">Privacy</a>
+                                <a href="contact.html">Help</a>
+                                <a href="contact.html">FAQs</a>
                             </div>
                         </div>
                     </div>

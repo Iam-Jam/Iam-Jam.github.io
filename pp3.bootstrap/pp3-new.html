@@ -53,6 +53,13 @@
                 </ul>
                 <a class="btn btn-outline-dark d-none d-lg-block btn-warning"
                     href="https://calendly.com/jtorayno2022/30min" target="_blank">Book a Viewing</a>
+                <!-- Favorites Button -->
+                <button type="button" id="btn-show-favorites" class="btn position-relative fave-btn" data-bs-toggle="modal"
+                    data-bs-target="#modal-favorites">
+                    <i class="fa fa-regular fa-heart fa-xl" style="color: secondary"></i>
+                    <span id="spn-badge" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">0
+                    </span>
+                </button>
             </div>
         </div>
     </nav>
@@ -99,21 +106,28 @@
         </div>
     </section>
 
+<!-- SEARCH RESULTS HERE -->
 
-
-    <!-- <section class="d-flex justify-content-center">
-        <div class="col-12 col-md-9 col-sm-10 hero-divider">
-            <div class="header-bar align-items-center">
-                <img src="assets/hero-bar.png" class="img-fluid hero-bar-img" alt="Image">
+<section id="Searched-Properties-Section">
+    <div class="container properties-scn">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <h2 class="display-5 text-center fw-bold mt-5">Your Searched Properties</h2>
+                <p class="text-center">We'll help you choose the Best Property for you.</p>
             </div>
         </div>
-    </section> -->
+        <div id="filtered-properties" class="row row-cols-1 row-cols-md-3 justify-content-center">
+            <!-- Searched Properties will be displayed here -->
+        </div>
+    </div>
+</section>
+
 
 <!-- FEATURED PROPERTIES SECTION -->
 
     <section class="container mt-5" id="Properties-Section">
         <div class="container col-lg-7 properties-scn">
-            <h2 class="display-5 text-center fw-bold">Our Featured Properties</h2>
+            <h2 class="display-5 text-center fw-bold mt-5">Our Featured Properties</h2>
             <p class="text-center">Feel Free to Check our numerous listings.</p>
         </div>
         <div class="row g-4 Featured-props">
@@ -332,22 +346,34 @@
                         <h5 class="text-white mb-4">Photo Gallery</h5>
                         <div class="row g-2 pt-2">
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="assets/property-1.jpg" alt="">
+                                <a href="properties.html">
+                                    <img class="img-fluid rounded bg-light p-1" src="assets/property-1.jpg" alt="">
+                                </a>
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="assets/property-2.jpg" alt="">
+                                <a href="properties.html">
+                                    <img class="img-fluid rounded bg-light p-1" src="assets/property-2.jpg" alt="">
+                                </a>
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="assets/property-3.jpg" alt="">
+                                <a href="properties.html">
+                                    <img class="img-fluid rounded bg-light p-1" src="assets/property-3.jpg" alt="">
+                                </a>
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="assets/property-4.jpg" alt="">
+                                <a href="properties.html">
+                                    <img class="img-fluid rounded bg-light p-1" src="assets/property-4.jpg" alt="">
+                                </a>
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="assets/property-5.jpg" alt="">
+                                <a href="properties.html">
+                                    <img class="img-fluid rounded bg-light p-1" src="assets/property-5.jpg" alt="">
+                                </a>
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="assets/property-6.jpg" alt="">
+                                <a href="properties.html">
+                                    <img class="img-fluid rounded bg-light p-1" src="assets/property-6.jpg" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -371,10 +397,10 @@
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
-                                <a href="">Home</a>
-                                <a href="">Privacy</a>
-                                <a href="">Help</a>
-                                <a href="">FAQs</a>
+                                <a href="pp3-new.html">Home</a>
+                                <a href="contact.html">Privacy</a>
+                                <a href="contact.html">Help</a>
+                                <a href="contact.html">FAQs</a>
                             </div>
                         </div>
                     </div>

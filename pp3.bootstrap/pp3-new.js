@@ -1,4 +1,4 @@
-// HERO SECTION
+// HERO SEARCH SECTION
 
 // Transaction Buttons
 const buyBtn = document.querySelector('.buy-btn');
@@ -38,8 +38,8 @@ searchButton.addEventListener("click", () => {
     filterProperties(transactionType, keyword);
 
     const searchInput = document.getElementById('search-input').value;
-    const searchUrl = `properties.html?keyword=${searchInput}`;
-    window.open(searchUrl, '_blank');
+    const searchUrl = `pp3-new.html?keyword=${searchInput}`;
+    window.open(searchUrl, '_self');
 });
 
 // Search Results Display at Properties Page
@@ -66,7 +66,7 @@ function filterProperties(transactionType, keyword) {
             searchResultsContainer.innerHTML = '';
 
             filteredProperties.forEach(property => {
-                const propertyHTML = `        
+              const propertyHTML = `     
                 <div class='col-lg-4 col-md-6 mb-4'>
                   <div class="card property-item rounded overflow-hidden">
                     <div class="position-relative overflow-hidden">
