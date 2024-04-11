@@ -178,5 +178,50 @@
 		"Bathrooms": "0 BathRs", 
 		"PropertyImage": "assets/property-1.jpg",
 		"TitleStatus": "Clean"     
+    },
+	{
+        "PropertyNumber": "PN-00013",
+		"TransactionType": "Sell Your Property",
+		"PropertyClassification": "Residential",
+		"PropertyType": "Lot Only",
+		"Price": "150,000 Php/ month",
+		"PropertyName": "High-End Lot with a view of Macajalar Bay",
+		"Location": "Pueblo Business Park",
+		"LotArea": "500 sqm",
+		"FloorArea": "0 sqm",
+        "Bedrooms": "0 BRs",
+		"Bathrooms": "0 BathRs", 
+		"PropertyImage": "assets/property-1.jpg",
+		"TitleStatus": "Clean"     
+    },
+	{
+        "PropertyNumber": "PN-00013",
+		"TransactionType": "Sell Your Property",
+		"PropertyClassification": "Commercial",
+		"PropertyType": "Lot Only",
+		"Price": "150,000 Php/ month",
+		"PropertyName": "High-End Lot with a view of Macajalar Bay",
+		"Location": "Pueblo Business Park",
+		"LotArea": "500 sqm",
+		"FloorArea": "0 sqm",
+        "Bedrooms": "0 BRs",
+		"Bathrooms": "0 BathRs", 
+		"PropertyImage": "assets/property-1.jpg",
+		"TitleStatus": "Clean"     
+    },
+	{
+        "PropertyNumber": "PN-00013",
+		"TransactionType": "Sell Your Property",
+		"PropertyClassification": "Industrial",
+		"PropertyType": "Lot Only",
+		"Price": "150,000 Php/ month",
+		"PropertyName": "High-End Lot with a view of Macajalar Bay",
+		"Location": "Pueblo Business Park",
+		"LotArea": "500 sqm",
+		"FloorArea": "0 sqm",
+        "Bedrooms": "0 BRs",
+		"Bathrooms": "0 BathRs", 
+		"PropertyImage": "assets/property-1.jpg",
+		"TitleStatus": "Clean"     
     }
 ]
