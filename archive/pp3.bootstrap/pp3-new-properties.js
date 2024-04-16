@@ -306,7 +306,7 @@ function _fetch() {
 
 // Draw property cards function
 function _drawCards(mappedProperties) {
-    // Clear previous search results
+//     // Clear previous search results`
     const searchResultsContainer = document.getElementById('sect-properties');
     searchResultsContainer.innerHTML = '';
 
