@@ -1,0 +1,59 @@
+:root {
+    --primary: #13213C !important;
+    --secondary: #00629F !important;
+    --secondary-2: #031D44 !important;
+    --secondary-3: #7298D4 !important;
+    --light: #F7F7F7 !important;
+    --light-2: #F8F8F8 !;
+    --dark: #0F1626 !important;
+    --warning: #FFC107 !important;
+    --warning-2:#FAA21A !important;
+    --success: #E8E1A4 !important;
+    --success-2: #f6f3d5 !important;
+    --danger: #CF4E08 !important;
+    --buttonborders: #A6A6A6 !important;
+    --buttonbackground-color: #D9D9D9 !important;
+}
+.prop-card-1 {
+    background-color: var(--light);
+    border: none !important;
+}
+
+.properties-scn {
+    padding-top: 50px;
+}
+
+.properties-scn p {
+    margin-bottom: 60px;
+}
+
+.property-tab {
+    color: var(--secondary);
+}
+
+.prop-price {
+    color: var(--primary);
+}
+
+.fa {
+    color: var(--secondary);
+}
+
+.rounded-pill {
+    background-color: var(--secondary-3);
+}
+
+.price-heart {
+    position: relative;
+}
+
+.heart-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.heart-btn:focus {
+    outline: green;
+}

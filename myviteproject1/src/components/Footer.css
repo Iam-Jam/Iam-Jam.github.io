@@ -1,0 +1,111 @@
+:root {
+    --primary: #13213C !important;
+    --secondary: #00629F !important;
+    --secondary-2: #031D44 !important;
+    --secondary-3: #7298D4 !important;
+    --light: #F7F7F7 !important;
+    --light-2: #F8F8F8 !;
+    --dark: #0F1626 !important;
+    --warning: #FFC107 !important;
+    --warning-2:#FAA21A !important;
+    --success: #E8E1A4 !important;
+    --success-2: #f6f3d5 !important;
+    --danger: #CF4E08 !important;
+    --buttonborders: #A6A6A6 !important;
+    --buttonbackground-color: #D9D9D9 !important;
+}
+
+body, html {
+    margin: 0;
+    padding:0;
+}
+
+footer {
+    background-color: #CF4E08;
+}
+
+.footer-scn {
+    background-color: #13213C;
+}
+.footer .btn.btn-social {
+    background-color: #13213C;
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 35px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--warning-2);
+    border-color: var(--warning);
+}
+
+.footer .btn.btn-link {
+    background-color: var(--primary);
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-decoration: none;
+    text-align: left;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    background-color:var(--primary);
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+    color: var(--warning-2) !important;
+}
+
+.footer .form-control {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.sign-up-text {
+    background-color: var(--light);
+    color: var(--secondary-2) !important; 
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+    text-decoration: none !important;
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
+.footer-cr a {
+    text-decoration: none;
+}
